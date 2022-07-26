@@ -6,10 +6,11 @@ import ContentWrapper from "./ContentWrapper"
 import LastMovieInDb from './LastProductInDb';
 import ContentRowMovies from './ContentRowMovies';
 import Error404 from './Error404';
-import Movie from './Producto';
+import Producto from './Producto';
 import AllProducts from './AllProducts';
 import BuscarPorMarca from './BuscarPorMarca'
 import ProductDetail from './ProductDetail';
+import User from './User';
 
 
 
@@ -79,18 +80,18 @@ function SideBar() {
                     </Link>
                 </li>
 
-               {/*  <li className="nav-item">
-                    <Link className="nav-link" to="/genres" exact >
+                 <li className="nav-item">
+                    <Link className="nav-link" to="/User" exact >
                         <i className="fas fa-fw fa-table"></i>
-                        <span>Todas las Marcas</span>
-                    </Link>  </li> */}
+                        <span>Listado de Usuarios</span>
+                    </Link>  </li> 
                 <li className="nav-item">
-                    <Link className="nav-link" to="/MoviesList" exact >
+                    <Link className="nav-link" to="/Producto" exact >
                         <i className="fas fa-fw fa-table"></i>
                         <span>Listado de Productos</span>
                     </Link>  </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/AllMovies" exact >
+                    <Link className="nav-link" to="/AllProducts" exact >
                         <i className="fas fa-fw fa-table"></i>
                         <span>Tienda</span>
                     </Link>  </li>
@@ -111,10 +112,11 @@ function SideBar() {
                 <Route path="/genres" exact element={<Marcas />} />
                 <Route path="/lastMovie" exact element={<LastMovieInDb />} />
                 <Route path="/ContentRow" exact element={<ContentRowMovies />} />
-                <Route path="/MoviesList" exact element={<Movie />} />
-                <Route path="/AllMovies" exact element={<AllProducts />} />
+                <Route path="/Producto" exact element={<Producto />} />
+                <Route path="/AllProducts" exact element={<AllProducts />} />
                 <Route path="/BuscarPorMarca" exact element={<BuscarPorMarca />} />
                 <Route path="/ProductDetail" exact element={<ProductDetail />} />
+                <Route path="/User" exact element={<User />} />
                  
 
 

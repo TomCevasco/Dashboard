@@ -63,7 +63,7 @@ function ProductInformation(props) {
             </div>
             <Routes>
 
-                <Route path="/MovieDetail/:id" exact element={<ProductDetail/>} />
+             {/*    <Route path="/MovieDetail/:id" exact element={<ProductDetail/>} /> */}
 
 
             </Routes>
