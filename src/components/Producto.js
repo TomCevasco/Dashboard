@@ -28,7 +28,8 @@ class Producto extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				{/*<!-- PRODUCTS LIST -->*/}
+				{/*<!-- PRODUCTS LIST -->*/}	
+				<div>
 				<div className="card shadow mb-1">
 				<h1 className="h2 mb-1 text-gray-800">Listado de Productos</h1> </div>
 			
@@ -58,6 +59,7 @@ class Producto extends Component {
 							</table>
 						</div>
 					</div>	
+				</div>
 				</div>
 			</React.Fragment>
 		)

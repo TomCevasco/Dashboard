@@ -33,14 +33,15 @@ class Marcas extends Component {
     return (
 <React.Fragment>
             {/*<!-- Categories in DB -->*/}
-            <div className="col-lg-6 mb-4">
+			
+            <div className="col-lg-4 mb-4 marcas-flex">
             {
 									this.state.Marcas.map((marca, index) => {
 										return <Marca  {...marca} key={index} />
 									})
 								}
 
- </div>
+ 			</div>
             
         </React.Fragment>
      )}

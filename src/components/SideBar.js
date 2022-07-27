@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../assets/images/logo-DH.png';
+import image from '../assets/images/Logo.png';
 import { Link, Route, Routes } from "react-router-dom";
 import Marcas from './Marcas';
 import ContentWrapper from "./ContentWrapper"
@@ -21,14 +21,10 @@ function SideBar() {
     return (
         <React.Fragment>
             {/*<!-- Sidebar -->*/}
-            <ul className="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar">
+            <ul className="navbar-nav bg-negro sidebar sidebar-dark accordion" id="accordionSidebar">
 
                 {/*<!-- Sidebar - Brand -->*/}
-                <a className="sidebar-brand d-flex align-items-center justify-content-center" href="/">
-                    <div className="sidebar-brand-icon">
-                        <img className="w-100" src={image} alt="Digital House" />
-                    </div>
-                </a>
+              
 
                 {/*<!-- Divider -->*/}
                 <hr className="sidebar-divider my-0" />
@@ -37,14 +33,14 @@ function SideBar() {
                 <li className="nav-item active">
                     <a className="nav-link" href="/">
                         <i className="fas fa-fw fa-tachometer-alt"></i>
-                        <span>Dashboard - Llama que Llama</span></a>
+                        <span>Dashboard</span></a>
                 </li>
 
                 {/*<!-- Divider -->*/}
                 <hr className="sidebar-divider" />
 
                 {/*<!-- Heading -->*/}
-                <div className="sidebar-heading">Actions</div>
+                <div className="sidebar-heading">Tablas</div>
 
                 {/*<!-- Nav Item - Pages -->*/}
                 {/*     <li className="nav-item">
@@ -76,7 +72,7 @@ function SideBar() {
                 <li className="nav-item">
                     <Link className="nav-link" to="/ProductDetail" exact >
                         <i className="fas fa-fw fa-table"></i>
-                        <span>Producto Destacado</span>
+                        <span>Productos Destacado</span>
                     </Link>
                 </li>
 

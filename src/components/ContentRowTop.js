@@ -8,9 +8,9 @@ function ContentRowTop() {
 	return (
 		<React.Fragment>
 			{/*<!-- Content Row Top -->*/}
-			<div className="container-fluid">
+			<div className="container-fluid bg-gris">
 				<div className="d-sm-flex aligns-items-center justify-content-between mb-10">
-					<h1 className="h3 mb-0 text-gray-800">App Dashboard</h1>
+					<h1 className="h3 mb-0 text-light">Dashboard</h1>
 				</div>
 
 				{/*<!-- Content Row Movies-->*/}
@@ -19,7 +19,9 @@ function ContentRowTop() {
 
 
 				{/*<!-- Content Row Last Movie in Data Base -->*/}
+				<div className='disp-flex'>
 				<Marcas/> 
+				</div>
 					{/*<!-- Last Movie in DB -->*/}
 					<ProductDetail />
 					{/*<!-- End content row last movie in Data Base -->*/}
