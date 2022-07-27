@@ -1,7 +1,7 @@
 import React from 'react';
 import imagenFondo from '../assets/images/mandalorian.jpg';
 import Marcas from './Marcas';
-import LastProductInDb from './LastProductInDb';
+/* import LastProductInDb from './LastProductInDb'; */
 import ContentRowMovies from './ContentRowMovies';
 import ProductDetail from './ProductDetail';
 function ContentRowTop() {
