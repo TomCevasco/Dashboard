@@ -29,7 +29,8 @@ class Producto extends Component {
 		return (
 			<React.Fragment>
 				{/*<!-- PRODUCTS LIST -->*/}	
-				<div>
+				
+				<div className='bg-negro'>
 				<div className="card shadow mb-1">
 				<h1 className="h2 mb-1 text-gray-800">Listado de Productos</h1> </div>
 			

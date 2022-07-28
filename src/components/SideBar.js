@@ -20,14 +20,21 @@ function SideBar() {
 
     return (
         <React.Fragment>
+
+            
             {/*<!-- Sidebar -->*/}
             <ul className="navbar-nav bg-negro sidebar sidebar-dark accordion" id="accordionSidebar">
 
                 {/*<!-- Sidebar - Brand -->*/}
-              
+              <div className="sidebar-brand-icon navbar-title bg-negro">
+                        <img src={image} alt="Digital House" />
+						<div className='navbar-title-p'>
+						<p>LlamaQueLlama</p>
+						</div>
+                </div>
 
                 {/*<!-- Divider -->*/}
-                <hr className="sidebar-divider my-0" />
+                
 
                 {/*<!-- Nav Item - Dashboard -->*/}
                 <li className="nav-item active">

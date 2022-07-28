@@ -6,13 +6,6 @@ function TopBar(){
 				{/*<!-- Topbar -->*/}
 				<nav className="navbar navbar-expand navbar-light bg-negro topbar static-top shadow">
 					
-					<div className="sidebar-brand-icon navbar-title bg-negro">
-                        <img src={image} alt="Digital House" />
-						<div className='navbar-title-p'>
-						<p>LlamaQueLlama</p>
-						</div>
-                    </div>
-					
 					
 
 				</nav>

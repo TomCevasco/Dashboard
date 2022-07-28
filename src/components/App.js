@@ -8,7 +8,7 @@ import GenresInDb from './GenresInDb';
 function App() {
   return (
     <React.Fragment>
-      	<div id="wrapper">
+      	<div id="wrapper" className='bg-negro'>
           <SideBar />
           
         </div>
