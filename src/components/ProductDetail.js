@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 /* import imagenFondo from '../assets/images/mandalorian.jpg'; */
 import LastProductInDb from './LastProductInDb';
-
+import TopBar from './TopBar';
 
 class ProductDetail extends Component {
 
@@ -13,7 +13,7 @@ class ProductDetail extends Component {
 
     componentDidMount() {
 
-        fetch("http://localhost:3004/api/products/Samsung").then(respuesta => {
+        fetch("http://localhost:3004/api/products/").then(respuesta => {
             return respuesta.json()
         }).then(product => {
 
@@ -26,18 +26,22 @@ console.log("Holaaaaa------------------------------------------");
     }
 
     render(){ 
+        
         return (
-    
+            
        <React.Fragment>
-   
-   <div className="col-lg-6 mb-4">
-            {this.state.productList.map((product, index) => {
-                return <LastProductInDb  {...product} key={index} />
-									
-								})}
-
- </div>
+        
+            
+            <div class="row bg-negro">
+                        {this.state.productList.map((product, index) => {
+                            return <LastProductInDb  {...product} key={index} />
+                                                
+                                            })}
+            </div>
+        
+      
        </React.Fragment>
+         
    
     
 

@@ -3,7 +3,7 @@ import imagenFondo from '../assets/products/1657664584592-galaxyZ_violeta.jpg';
 
 function LastProductInDb(product) {
     return (				
-                                        
+		<div class="col-md-4">    
                                    <div className="col-lg-10 mb-4">
                                        
 											<div className="card shadow mb-4">
@@ -23,7 +23,7 @@ function LastProductInDb(product) {
 												</div>
 											</div>
                                             </div>
-									
+											</div>	
                                     
                        
                
