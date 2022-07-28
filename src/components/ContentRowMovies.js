@@ -9,20 +9,20 @@ let productInDataBase = {
     color:   "primary",
     titulo: "Productos en Tienda",
     valor: 21,
-    icono: "fas fa-film",
+    icono: "fad fa-mobile",
 }
 
 let amount ={
-    color:   "success",
+    color:   "primary",
     titulo: "Marcas disponibles",
-    valor: 80,
-    icono: "fas fa-award",
+    valor: 6,
+    icono: "fas fa-registered",
 }
 
 let user = {
-    color:   "warning",
+    color:   "primary",
     titulo: "Asuarios Registrados",
-    valor: 49,
+    valor: 20,
     icono: "fas fa-user",
 }
 
